@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">autocompletewithcustomadapter</string>
+    <string name="placeholder_search">search</string>
+</resources>

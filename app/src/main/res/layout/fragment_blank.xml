@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment"
+    android:background="#555"
+   >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <com.journeyapps.barcodescanner.CompoundBarcodeView
+            android:id="@+id/barcode_scanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            >
+
+        </com.journeyapps.barcodescanner.CompoundBarcodeView>
+
+    </RelativeLayout>
+</FrameLayout>
